@@ -29,3 +29,13 @@ body {
 div {
   color: white;
 }
+
+a{
+  color: #cf82ff;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#e9c4ff;
+  text-decoration: underline;
+}
