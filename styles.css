@@ -1,6 +1,7 @@
 body {
-  background-color: black;
+  background: linear-gradient(to bottom, #b81d1d 0%, #53208c 100%);
 }
+
 img {
   opacity: 0;
   animation: fadeIn 1s forwards;
