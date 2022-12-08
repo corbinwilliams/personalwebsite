@@ -1,16 +1,93 @@
+body {
+  background-color: black;
+}
+img {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation: bob 1s ease-in-out infinite;
+}
+
+@keyframes bob {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 h1 {
   font-size: 50px;
   text-align: center;
 }
 
 h2 {
+  animation: sway 1s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+h2 {
   text-align: center;
 }
 
 h3 {
+  animation: sway 1s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+h3 {
   text-align: center;
 }
 
+p {
+  animation: sway 1s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 p {
   text-align: center;
 }
@@ -22,20 +99,32 @@ p {
   width: 50%;
 }
 
-body {
-  background-color: black;
-}
-
 div {
   color: white;
 }
 
-a{
+a {
   color: #cf82ff;
   text-decoration: none;
 }
 
-a:hover{
-  color:#e9c4ff;
+a:hover {
+  color: #e9c4ff;
   text-decoration: underline;
+}
+
+ul {
+  animation: sway 1s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
