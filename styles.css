@@ -34,6 +34,32 @@ h1 {
 h1 {
   font-size: 50px;
   text-align: center;
+  color: black;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #d988ff
+  );
+  background-size: 600% 600%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 h2 {
@@ -128,4 +154,49 @@ ul {
   100% {
     transform: translateX(0);
   }
+}
+
+.house {
+  width: 150px;
+  height: 309px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heathers {
+  width: 300px;
+  height: 412px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bfspin {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tomie {
+  width: 300px;
+  height: 412px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sonia {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border: 10px solid #aaffb5;
+  border-image-width: 4px;
 }
