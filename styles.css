@@ -1,5 +1,9 @@
 body {
   background: linear-gradient(to bottom, #b81d1d 0%, #53208c 100%);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
 img {
@@ -157,8 +161,8 @@ ul {
 }
 
 .house {
-  width: 150px;
-  height: 309px;
+  width: 200px;
+  height: 409px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -197,8 +201,12 @@ ul {
 }
 
 .pasta {
-  width: 500px;
-  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rat{
   display: block;
   margin-left: auto;
   margin-right: auto;
